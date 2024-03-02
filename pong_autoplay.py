@@ -67,6 +67,8 @@ wn.listen()
 wn.onkey(paddle_a_left, "Left")
 wn.onkey(paddle_a_right, "Right")
 
+print ("Game start")
+
 while True:
     wn.update()
     ball.setx(ball.xcor() + ball.dx)
